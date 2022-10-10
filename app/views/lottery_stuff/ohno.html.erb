@@ -1,0 +1,11 @@
+<h1>Unlucky numbers</h1>
+
+<p>Your unlucky numbers for today are:</p>
+
+<ul>
+  <% @unlucky_nums.each do |element| %>
+    <li>
+      <%= element %>
+    </li>
+  <% end %>
+</ul>
